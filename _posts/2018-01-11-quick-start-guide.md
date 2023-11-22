@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Let's test spoilers"
-author: sal
-categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+title:  "ಹಿಂದುತ್ವ - ಭಾರತೀಯ ಜೀವನ ದೃಷ್ಟಿ"
+author: akshaygj
+categories: [ ಹಿಂದುತ್ವ, ಭಾರತೀಯ ]
+image: assets/images/yoga.webp
 featured: true
 hidden: true
 ---
