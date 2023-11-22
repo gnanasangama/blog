@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "ಹಿಂದುತ್ವ - ಭಾರತೀಯ ಜೀವನ ದೃಷ್ಟಿ"
+title:  "ಭಾರತೀಯ ಜೀವನ ದೃಷ್ಟಿ"
+description: "ಭಾರತೀಯ ಜೀವನ ದೃಷ್ಟಿಕೋನದ ಸಂಕ್ಷಿಪ್ತ ಪರಿಚಯ"
 author: akshaygj
-categories: [ ಹಿಂದುತ್ವ, ಭಾರತೀಯ ]
-image: assets/images/yoga.webp
+categories: [ ಭಾರತೀಯ ]
+tags: [bharatiya, hindu]
+image: assets/images/post/yoga.webp
+rating: 4.5
 featured: true
 hidden: true
 ---
