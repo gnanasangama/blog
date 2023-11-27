@@ -2,12 +2,13 @@
 layout: page
 title: ಅಕ್ಷಯ್ ಜೋಗಿಹಳ್ಳಿ
 permalink: /author/akshaygj
-comments: true
+author: akshaygj
+comments: false
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-    {% assign author = site.authors[akshaygj] %}
+    {% assign author = site.authors[page.author] %}
     <div class="row post-top-meta">
         <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
             {% if author.avatar %}
