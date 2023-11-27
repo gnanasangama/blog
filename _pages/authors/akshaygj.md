@@ -7,7 +7,7 @@ comments: true
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-    {% assign author = site.authors[page.author] %}
+    {% assign author = site.authors[akshaygj] %}
     <div class="row post-top-meta">
         <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
             {% if author.avatar %}
@@ -17,7 +17,7 @@ comments: true
             {% endif %}
         </div>
         <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-            <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+            <!-- <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a> -->
             <br>
             <span class="author-description">{{ author.description }}</span>
         </div>
