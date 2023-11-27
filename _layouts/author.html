@@ -14,8 +14,7 @@ layout: default
             {% if author.avatar %}
             <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
             {% else %}
-            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
-                alt="{{ author.display_name }}">
+            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
             {% endif %}
         </div>
         <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
@@ -27,78 +26,60 @@ layout: default
     </div>
 
     <div class="article-post">
-        {{content}}
+    {{content}}
     </div>
 
     <div class="row justify-content-between">
         <div class="col-md-8 pr-5">
-            <!-- 
+        <!-- 
         <h4>Documentation</h4>
         <p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p> -->
-
+        
         </div>
-
+        
         <div class="col-md-4">
-
-            <div class="sticky-top sticky-top-80">
-
-            </div>
+        
+        <div class="sticky-top sticky-top-80">
+        
         </div>
-        <!-- Featured
-        ================================================== -->
-        <section class="featured-posts">
-            <div class="section-title">
-                <h2><span>ವಿಶೇಷ</span></h2>
-            </div>
-            <div class="row">
-
-                {% for post in site.posts %}
-
-                {% if post.featured == true %}
-
-                {% include featuredbox.html %}
-
-                {% endif %}
-
-                {% endfor %}
-
-            </div>
-        </section>
-
-        {% endif %}
-
+        </div>
+        
         <!-- Posts Index
         ================================================== -->
         <section class="recent-posts">
-
+        
             <div class="section-title">
-
+        
                 <h2><span>ಎಲ್ಲಾ ಲೇಖನಗಳು</span></h2>
-
+        
             </div>
-
+        
             <div class="row listrecent">
-
+        
                 {% for post in paginator.posts %}
-
-                {% include postbox.html %}
-
+        
+                {% if post.author == page.author %}
+        
+                    {% include postbox.html %}
+        
+                {% endif %}
+        
                 {% endfor %}
-
+        
             </div>
-
+        
         </section>
-
+        
         <!-- Pagination
         ================================================== -->
         <div class="bottompagination">
-            <div class="pointerup"><i class="fa fa-caret-up"></i></div>
-            <span class="navigation" role="navigation">
-                {% include pagination.html %}
-            </span>
+        <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+        <span class="navigation" role="navigation">
+            {% include pagination.html %}
+        </span>
         </div>
-
-    </div>
+        
+        </div>
 
     {% if page.comments == true %}
 
