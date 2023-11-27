@@ -5,7 +5,7 @@ description: "ನಮ್ಮ ಜ್ಞಾನ ಸಂಗಮವು ಪವಿತ್ರ
 logo: 'assets/images/brand/logo.png'
 favicon: 'assets/images/brand/favicon.png'
 baseurl: /blog
-google_analytics: ''
+google_analytics: 'G-8MWRMYHFYJ'
 disqus: 'blog-gnanasangama'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
