@@ -21,6 +21,14 @@ authors:
     web: /blog/author/akshaygj
     twitter: https://twitter.com/akshaygj
     description: "ಲೇಖಕ"
+  nagarjunap:
+    name: ನಾಗಾರ್ಜುನ ಪಿ
+    display_name: ನಾಗಾರ್ಜುನ ಪಿ
+    gravatar: 
+    email: nagarjuna.abhyudaya@gmail.com
+    web: /blog/author/nagarjunap
+    twitter: https://twitter.com/nagarjunap
+    description: "ಲೇಖಕ"
 
 # Plugins
 plugins:
