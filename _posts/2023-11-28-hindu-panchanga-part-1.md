@@ -3,8 +3,9 @@ layout: post
 title:  "ಹಿಂದೂ ಪಂಚಾಂಗ - ಭಾಗ ೧"
 description: "ಹಿಂದೂ ಪಂಚಾಂಗ ಹಾಗು ಅದರ ವೈಶಿಷ್ಟ್ಯದ ಸಂಕ್ಷಿಪ್ತ ಪರಿಚಯ"
 author: akshaygj
-categories: [ ಭಾರತೀಯ ]
+categories: [ ಹಿಂದೂ ಸಂಸ್ಕೃತಿ ]
 tags: [bharatiya, hindu]
+keywords: panchanga, hindu, calendar, bharat, panchang, culture
 image: assets/images/post/yoga.webp
 rating: 4.5
 featured: true
