@@ -5,7 +5,7 @@ description: "ಹಿಂದೂ ಪಂಚಾಂಗ ಹಾಗು ಅದರ ವೈ�
 author: akshaygj
 categories: [ ಹಿಂದೂ ಸಂಸ್ಕೃತಿ ]
 tags: [bharatiya, hindu]
-keywords: panchanga, hindu, calendar, bharat, panchang, culture
+keywords: "panchanga, hindu, calendar, bharat, panchang, culture"
 image: assets/images/post/yoga.webp
 rating: 4.5
 featured: true
