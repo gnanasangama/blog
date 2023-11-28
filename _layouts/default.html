@@ -3,8 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name=”keywords” content=”{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}”/>
 
+{% if page.keywords %}
+    {% assign sortedKeywords = page.keywords | sort %}
+    <meta name=”keywords” content=”{% for keyword in sortedKeywords %}keyword {% endfor %}”/>
+{% else %}
+    <meta name=”keywords” content=”gnanasangam gnana sangama hindu bharat nation culture politics news wiki”/>
+{% endif %}
 <link rel="icon" href="{{ site.baseurl }}/assets/images/brand/logo.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
