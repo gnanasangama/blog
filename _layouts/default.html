@@ -6,9 +6,9 @@
 
 {% if page.keywords %}
     {% assign sortedKeywords = page.keywords | sort %}
-    <meta name=”keywords” content=”{% for keyword in sortedKeywords %}keyword {% endfor %}”/>
+    <meta name=”keywords” content='{% for keyword in sortedKeywords %}{{keyword}} {% endfor %}'/>
 {% else %}
-    <meta name=”keywords” content=”gnanasangam gnana sangama hindu bharat nation culture politics news wiki”/>
+    <meta name=”keywords” content='gnanasangam gnana sangama hindu bharat nation culture politics news wiki'/>
 {% endif %}
 <link rel="icon" href="{{ site.baseurl }}/assets/images/brand/logo.png">
 
