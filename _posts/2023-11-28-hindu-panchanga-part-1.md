@@ -6,7 +6,7 @@ author: akshaygj
 categories: [ ಹಿಂದೂ ಸಂಸ್ಕೃತಿ ]
 tags: [hindu, panchanga, culture, bharatiya]
 keywords: [panchanga, hindu, calendar, bharat, panchang, culture]
-image: assets/images/post/yoga.webp
+image: assets/images/post/panchang.jpg
 rating: 4.5
 featured: true
 hidden: true
