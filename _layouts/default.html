@@ -6,9 +6,9 @@
 
 {% if page.keywords %}
     {% assign sortedKeywords = page.keywords | sort %}
-    <meta name=”keywords” content='{% for keyword in sortedKeywords %}{{keyword}} {% endfor %}'/>
+    <meta name='keywords' content='{% for keyword in sortedKeywords %}{{keyword}} {% endfor %}'/>
 {% else %}
-    <meta name=”keywords” content='gnanasangam gnana sangama hindu bharat nation culture politics news wiki'/>
+    <meta name='keywords' content='gnanasangam gnana sangama hindu bharat nation culture politics news wiki'/>
 {% endif %}
 <link rel="icon" href="{{ site.baseurl }}/assets/images/brand/logo.png">
 
@@ -23,6 +23,17 @@
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+<style>
+    .unselectable {
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+    }
+</style>
 
 </head>
 
@@ -40,7 +51,7 @@
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{layout}}">
+<body class="{{layout}} unselectable">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
 		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
